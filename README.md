@@ -10,10 +10,14 @@ FindMeGlutenFree.com is a go-to website in the gluten free / celiac community. T
 JUPYTER NOTEBOOK (PYTHON) FOR CLEANING & VISUALIZATIONS:\
 FindMeGF Scraping Code Final with Comments.ipynb
 
-SPIDER SCRAPER: \
-spiders/findmegf_long_spider.py\
 SCRAPY FILES: \
-__init__.py, items.py, middlewares.py, pipelines.py, settings.py, __pycache__ folder
+SPIDER SCRAPER TO CRAWL AND COLLECT DATA: spiders/findmegf_long_spider.py\
+ITEMS TO SCRAPE: items.py \
+PIPELINE FUNCTION TO WRITE ITEMS TO CSV: pipelines.py \
+SPIDER MIDDLEWARE MODELS: middlewares.py \
+SCRAPING SETTINGS: settings.py \
+OTHER SCRAPY FILES: \_\_init\_\_.py, \_\_pycache\_\_ folder
+
 
 CSV FILES:\
 • ORIGINAL SCRAPED DATASET: findmegflong.csv\
