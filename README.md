@@ -7,10 +7,10 @@ FindMeGlutenFree.com is a go-to website in the gluten free / celiac community. T
 -----------------
 --- DIRECTORY ---
 -----------------
-JUPYTER NOTEBOOK (PYTHON) FOR CLEANING & VISUALIZATIONS:\
+**JUPYTER NOTEBOOK (PYTHON) FOR CLEANING & VISUALIZATIONS**:\
 FindMeGF Scraping Code Final with Comments.ipynb
 
-SCRAPY FILES: \
+**SCRAPY FILES**: \
 SPIDER SCRAPER TO CRAWL AND COLLECT DATA: spiders/findmegf_long_spider.py\
 ITEMS TO SCRAPE: items.py \
 PIPELINE FUNCTION TO WRITE ITEMS TO CSV: pipelines.py \
@@ -19,14 +19,14 @@ SCRAPING SETTINGS: settings.py \
 OTHER SCRAPY FILES: \_\_init\_\_.py, \_\_pycache\_\_ folder
 
 
-CSV FILES:\
+**CSV FILES**:\
 • ORIGINAL SCRAPED DATASET: findmegflong.csv\
 • CLEANED, EXPANDED, & DUMMIFIED DATASET: gf_data_all_tags.csv\
 • SUMMARY STATS BY METRO AREA: gf_full_stats_metro.csv\
 • LIST OF ALL RESTAURANT TYPE TAGS:  gf_rest_tags.csv\
-• LIST OF ALL FOOD TYPE TAGS: gf_food_tags.csv\
+• LIST OF ALL FOOD TYPE TAGS: gf_food_tags.csv
 
-VISUALIZATIONS: \
+**VISUALIZATIONS**: \
 • Restaurant_Experience_by_Metro.png\
 • Top_10_Restaurant_Type_Tags_by_Metro.png\
 • Percentage_of_Reviews_by_Metro.png\
